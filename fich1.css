@@ -7,6 +7,10 @@ h1{
 img{
     border: 5px solid #ffff;
 }
-.parag{
+div{
     text-align: center;
+}
+.coins_arrondis{
+    border-radius: 20px;
+    background-color: chocolate;
 }
