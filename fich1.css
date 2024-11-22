@@ -4,3 +4,6 @@ body{
 h1{
     font-size: 1.2em;
 }
+img{
+    border: 5px solid #ffff;
+}
