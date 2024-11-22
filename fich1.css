@@ -2,7 +2,7 @@ body{
     background-color: rgb(38, 167, 172);
 }
 h1{
-    font-size: 1.2em;
+    font-size: 2em;
 }
 img{
     border: 5px solid #ffff;
@@ -17,4 +17,9 @@ div{
 }
 a:hover{
     background-color: rgb(161, 161, 94);
+}
+.ambre{
+    font-size: 30px;
+    color: #adcbd8;
+    text-shadow: 3px 3px 6px rgb(42, 46, 71);
 }
