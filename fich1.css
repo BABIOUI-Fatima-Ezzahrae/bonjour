@@ -13,4 +13,8 @@ div{
 .coins_arrondis{
     border-radius: 20px;
     background-color: chocolate;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(161, 161, 94);
 }
