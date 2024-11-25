@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titre">
+        <h1>FreeCode Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the plateform</p></div>
+    <div class="formulaire">
+        <form>
+            <label for="nom">Name</label><br>
+            <input type="text" class="inputs" placeholder="fatima ezzahrae" name="nom" required><br><br>
+            <label for="mail">Email :</label><br>
+            <input type="email" class="inputs" placeholder="fatiza@gmail.com" name="mail" required><br><br>
+            <label for="age">Age :</label><br>
+            <input type="number" class="inputs" placeholder="age" name="age" required><br><br>
+            <label for="select">wich option best describes your current role?</label><br>
+            <select name="select">
+                <option id="student">student</option>
+                <option value="b">Employee</option>
+                <option value="c">Freelancer</option>
+                <option value="d">Unemployed</option>
+            </select><br><br>
+            <label for="radions">will you recommend FreeCode to a friend ?</label><br>
+            <input type="radio" name="radions" id="defintely">
+            <label for="defintely">Defintely</label><br>
+            <input type="radio" name="radions" id="maybe">
+            <label for="maybe">maybe</label><br>
+            <input type="radio" name="radions" id="Not Sure">
+            <label for="Not Sure">Not Sure</label><br><br>
+            <label>What would you like te see improved?</label><br>
+            <input type="checkbox">
+            <label>FrontEnd project</label><br>
+            <input type="checkbox">
+            <label>BackEnd project</label><br>
+            <input type="checkbox">
+            <label>Data visualisation</label><br>
+            <input type="checkbox">
+            <label>Challenges</label><br>
+            <input type="checkbox">
+            <label>Wiki</label><br><br>
+            <label for="textes">Any comments or suggestion?</label><br><br>
+            <textarea name="textes" placeholder="enter your comment here ....." rows="10" cols="10"></textarea><br><br>
+            <input type="submit" class="button" value="valider">
+        </form>
+    </div>
+</body>
+</html>

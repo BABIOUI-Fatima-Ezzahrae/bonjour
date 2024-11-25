@@ -1,0 +1,46 @@
+body { 
+    background-image: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/47_-_black.jpg');
+}
+.titre{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 32%;
+    margin-bottom: -15%;
+}
+.formulaire {
+    background-color: rgba(143, 129, 140, 0.3);
+    width: 100vh;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 13%;
+    padding: 4%;
+    border-radius: 9px;
+    }
+p{
+    color: #fff;
+    margin-left: 7%;
+}
+h1{
+    color: white;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+}
+.inputs , select {
+    width: 100%;
+    height: 25px;
+}
+.button{
+    cursor: pointer;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 10em;
+    height: 30px;
+}
